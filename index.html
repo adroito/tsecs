@@ -14,7 +14,7 @@
   body{background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
   .wrap{max-width:860px;margin:0 auto;padding:0 22px}
   header{border-bottom:3px double var(--ink);padding:34px 0 22px;text-align:center}
-  .seal{width:150px;height:150px;margin:0 auto 14px;display:block}
+  .seal{width:150px;height:165px;margin:0 auto 14px;display:block}
   h1{font-size:clamp(26px,5vw,40px);letter-spacing:.04em;text-transform:uppercase;font-weight:700;line-height:1.2}
   .latin{font-style:italic;color:#5c5546;margin-top:8px}
   .motto{margin-top:12px;letter-spacing:.35em;text-transform:uppercase;font-size:12px;color:var(--accent)}
@@ -70,22 +70,23 @@
 <div class="wrap">
 
 <header>
-  <svg class="seal" viewBox="0 0 200 200" role="img" aria-label="Seal of the Society">
-    <defs><path id="topArc" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
-    <circle cx="100" cy="100" r="96" fill="none" stroke="#1c1a17" stroke-width="2"/>
-    <circle cx="100" cy="100" r="60" fill="none" stroke="#7a1f1f" stroke-width="1.5"/>
-    <text font-size="14.5" letter-spacing="3.5" fill="#1c1a17" font-family="Georgia,serif">
-      <textPath href="#topArc">SOCIETY FOR THE ERADICATION OF COCKER SPANIELS</textPath>
-    </text>
-    <g stroke="#7a1f1f" stroke-width="5" fill="none">
-      <circle cx="100" cy="100" r="34"/>
-      <line x1="76" y1="124" x2="124" y2="76"/>
+  <svg class="seal" viewBox="0 0 200 220" role="img" aria-label="Shield of the Society">
+    <path d="M100,8 L176,30 V104 C176,160 142,192 100,212 C58,192 24,160 24,104 V30 Z" fill="#fffdf7" stroke="#1c1a17" stroke-width="3"/>
+    <path d="M100,20 L164,39 V103 C164,153 134,181 100,199 C66,181 36,153 36,103 V39 Z" fill="none" stroke="#a07d2c" stroke-width="1.5"/>
+    <text x="100" y="60" text-anchor="middle" font-size="12.5" letter-spacing="3.5" fill="#1c1a17" font-family="Georgia,serif">THE SOCIETY</text>
+    <line x1="58" y1="70" x2="142" y2="70" stroke="#a07d2c" stroke-width="1"/>
+    <text x="100" y="97" text-anchor="middle" font-size="25" font-weight="bold" letter-spacing="5" fill="#7a1f1f" font-family="Georgia,serif">TSECS</text>
+    <g stroke="#7a1f1f" stroke-width="4.5" fill="none">
+      <circle cx="100" cy="128" r="25"/>
+      <line x1="82" y1="146" x2="118" y2="110"/>
     </g>
     <g fill="#1c1a17">
-      <ellipse cx="88" cy="94" rx="7" ry="12" transform="rotate(-18 88 94)"/>
-      <ellipse cx="112" cy="94" rx="7" ry="12" transform="rotate(18 112 94)"/>
-      <ellipse cx="100" cy="110" rx="13" ry="10"/>
+      <ellipse cx="91" cy="122" rx="5.5" ry="10" transform="rotate(-18 91 122)"/>
+      <ellipse cx="109" cy="122" rx="5.5" ry="10" transform="rotate(18 109 122)"/>
+      <ellipse cx="100" cy="136" rx="10.5" ry="8"/>
     </g>
+    <text x="100" y="172" text-anchor="middle" font-size="10.5" letter-spacing="2.5" fill="#1c1a17" font-family="Georgia,serif">ERADICATION</text>
+    <text x="100" y="188" text-anchor="middle" font-size="8.5" letter-spacing="2" fill="#5c5546" font-family="Georgia,serif">EST. MMXXVI</text>
   </svg>
   <h1>The Society for the Eradication of Cocker Spaniels</h1>
   <p class="latin">TSECS &middot; A Nonprofit in Spirit &middot; Doing Business in Our Hearts as Princess Posse Enterprises</p>
@@ -221,23 +222,24 @@
 
   <div id="certificate">
     <div class="cert-inner">
-      <svg class="seal" style="width:96px;height:96px" viewBox="0 0 200 200" role="img" aria-label="Seal of the Society">
-        <defs><path id="topArc2" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
-        <circle cx="100" cy="100" r="96" fill="none" stroke="#1c1a17" stroke-width="2"/>
-        <circle cx="100" cy="100" r="60" fill="none" stroke="#7a1f1f" stroke-width="1.5"/>
-        <text font-size="14.5" letter-spacing="3.5" fill="#1c1a17" font-family="Georgia,serif">
-          <textPath href="#topArc2">SOCIETY FOR THE ERADICATION OF COCKER SPANIELS</textPath>
-        </text>
-        <g stroke="#7a1f1f" stroke-width="5" fill="none">
-          <circle cx="100" cy="100" r="34"/>
-          <line x1="76" y1="124" x2="124" y2="76"/>
-        </g>
-        <g fill="#1c1a17">
-          <ellipse cx="88" cy="94" rx="7" ry="12" transform="rotate(-18 88 94)"/>
-          <ellipse cx="112" cy="94" rx="7" ry="12" transform="rotate(18 112 94)"/>
-          <ellipse cx="100" cy="110" rx="13" ry="10"/>
-        </g>
-      </svg>
+      <svg class="seal" style="width:96px;height:106px" viewBox="0 0 200 220" role="img" aria-label="Shield of the Society">
+    <path d="M100,8 L176,30 V104 C176,160 142,192 100,212 C58,192 24,160 24,104 V30 Z" fill="#fffdf7" stroke="#1c1a17" stroke-width="3"/>
+    <path d="M100,20 L164,39 V103 C164,153 134,181 100,199 C66,181 36,153 36,103 V39 Z" fill="none" stroke="#a07d2c" stroke-width="1.5"/>
+    <text x="100" y="60" text-anchor="middle" font-size="12.5" letter-spacing="3.5" fill="#1c1a17" font-family="Georgia,serif">THE SOCIETY</text>
+    <line x1="58" y1="70" x2="142" y2="70" stroke="#a07d2c" stroke-width="1"/>
+    <text x="100" y="97" text-anchor="middle" font-size="25" font-weight="bold" letter-spacing="5" fill="#7a1f1f" font-family="Georgia,serif">TSECS</text>
+    <g stroke="#7a1f1f" stroke-width="4.5" fill="none">
+      <circle cx="100" cy="128" r="25"/>
+      <line x1="82" y1="146" x2="118" y2="110"/>
+    </g>
+    <g fill="#1c1a17">
+      <ellipse cx="91" cy="122" rx="5.5" ry="10" transform="rotate(-18 91 122)"/>
+      <ellipse cx="109" cy="122" rx="5.5" ry="10" transform="rotate(18 109 122)"/>
+      <ellipse cx="100" cy="136" rx="10.5" ry="8"/>
+    </g>
+    <text x="100" y="172" text-anchor="middle" font-size="10.5" letter-spacing="2.5" fill="#1c1a17" font-family="Georgia,serif">ERADICATION</text>
+    <text x="100" y="188" text-anchor="middle" font-size="8.5" letter-spacing="2" fill="#5c5546" font-family="Georgia,serif">EST. MMXXVI</text>
+  </svg>
       <p class="cert-society">The Society for the Eradication of Cocker Spaniels</p>
       <p class="cert-title">Certificate of Membership</p>
       <p class="cert-body">This is to certify that</p>
